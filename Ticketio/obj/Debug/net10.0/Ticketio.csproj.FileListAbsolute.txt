@@ -1,0 +1,15 @@
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/obj/Debug/net10.0/Ticketio.GeneratedMSBuildEditorConfig.editorconfig
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/obj/Debug/net10.0/Ticketio.AssemblyInfoInputs.cache
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/obj/Debug/net10.0/Ticketio.AssemblyInfo.cs
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/obj/Debug/net10.0/Ticketio.csproj.CoreCompileInputs.cache
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/obj/Debug/net10.0/Ticketio.sourcelink.json
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/bin/Debug/net10.0/Ticketio
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/bin/Debug/net10.0/Ticketio.deps.json
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/bin/Debug/net10.0/Ticketio.runtimeconfig.json
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/bin/Debug/net10.0/Ticketio.dll
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/bin/Debug/net10.0/Ticketio.pdb
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/obj/Debug/net10.0/Ticketio.dll
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/obj/Debug/net10.0/refint/Ticketio.dll
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/obj/Debug/net10.0/Ticketio.pdb
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/obj/Debug/net10.0/Ticketio.genruntimeconfig.cache
+/home/joao/Área de trabalho/PROJETOS/DOTNET/Ticketio/obj/Debug/net10.0/ref/Ticketio.dll
