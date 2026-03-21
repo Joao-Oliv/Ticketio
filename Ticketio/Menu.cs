@@ -2,6 +2,8 @@ namespace Ticketio;
 
 public class Menu
 {
+    List<Events> events;
+
     public Menu()
     {
         Menu menu = new Menu();
@@ -11,6 +13,7 @@ public class Menu
         Console.WriteLine("Your personal system to manage events");
         Console.WriteLine("---------------------------------------");
 
+        menu.events = new List<Events>();
         menu.navegator();
     }
 
@@ -35,8 +38,9 @@ public class Menu
                     break;
                 
                 case 1:
+                                        
+                    Events events = new Events(ref this.events);
 
-                    Console.WriteLine("Events");
                     break;
 
                 case 2:

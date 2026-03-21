@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ticketio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdeb086440baa8997ade765ac1fc03f2ce20a1c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4a57a1e2bad5a94a08207bac0ba54ee8ea259a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ticketio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ticketio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
