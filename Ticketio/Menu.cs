@@ -1,3 +1,5 @@
+using System.Linq.Expressions;
+
 namespace Ticketio;
 
 public class Menu
@@ -5,16 +7,14 @@ public class Menu
     List<Events> events;
 
     public Menu()
-    {
-        Menu menu = new Menu();
-        
+    {        
         Console.WriteLine("---------------------------------------");
         Console.WriteLine("Welcome to TIcketio");
         Console.WriteLine("Your personal system to manage events");
         Console.WriteLine("---------------------------------------");
 
-        menu.events = new List<Events>();
-        menu.navegator();
+        this.events = new List<Events>();
+        this.navegator();
     }
 
     public void navegator()
@@ -28,7 +28,7 @@ public class Menu
             Console.WriteLine("2. Tickets");
             Console.WriteLine("0. Exit");
 
-            iterator = Console.Read();
+            iterator = int.Parse(Console.ReadLine());
 
             switch (iterator)
             {

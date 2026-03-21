@@ -13,10 +13,7 @@ public class Events
     public int soldTickets { get; set; }
 
     public Events(ref List<Events> _events)    
-    {
-        
-        Events events = new Events(ref _events);
-
+    {        
         Console.Clear();
         Console.WriteLine("---------------------------------------");
         Console.WriteLine("Events Menu");
@@ -29,9 +26,10 @@ public class Events
         do
         {
             Console.WriteLine("Please selction an navegation option:");
-            Console.WriteLine("1. Create an Event");
-            Console.WriteLine("2. See Events");
+            Console.WriteLine("1. See Events");            
+            Console.WriteLine("2. Create an Event");
             Console.WriteLine("3. Delete an Event");
+            Console.WriteLine("4. Edit an Event");
             Console.WriteLine("0. Exist");            
 
             iterator = Console.Read();
@@ -44,15 +42,14 @@ public class Events
                     break;
                 
                 case 1:
-
-                    this.createEvent();
-                    _events.Add(this);
-
+                    
+                    this.seeEvents();
                     break;
 
                 case 2:
-
-                    Console.WriteLine("Tickets");
+                    
+                    this.createEvent();
+                    this.events.Add(events);                    
                     break;
 
                 case 3:
@@ -70,6 +67,27 @@ public class Events
         } while(iterator != 0);
     }
 
+    public void seeEvents()
+    {
+        Console.Clear();
+        
+        foreach (Events _events in events)
+        {
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("Event ID: " + _events.id);
+            Console.WriteLine("Event Name: " + _events.name);
+            Console.WriteLine("Event Date: " + _events.date);
+            Console.WriteLine("Event Value: " + _events.value);
+            Console.WriteLine("Event Max Capacity: " + _events.maxCapacity);
+            Console.WriteLine("Event Sold Tickets: " + _events.soldTickets);
+            Console.WriteLine("Press any key to continue...");
+            Console.WriteLine("---------------------------------------");
+        }
+
+        Console.WriteLine("Press any key to continue...");
+        Console.ReadLine();
+    }
+    
     public void createEvent()
     {
         Console.Clear();
